@@ -2,8 +2,7 @@ import React from 'react'
 import { BsSearch } from "react-icons/bs";
 import { HiMicrophone } from "react-icons/hi";
 
-import './search.sass'
-
+import './styles.sass'
 
 const Search: React.FC = () => {
   return (

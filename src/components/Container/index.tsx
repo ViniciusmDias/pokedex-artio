@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './container.sass'
+import './styles.sass'
 
 const Container: React.FC = ({ children }) => {
   return (

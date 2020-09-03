@@ -2,14 +2,16 @@ import React from 'react';
 
 import Container from '../../components/Container'
 import Search from '../../components/Search'
+import PokeList from '../../components/PokeList'
 
-import './pokemons.sass'
+import './styles.sass'
 
 const Login: React.FC = () => {
   return (
     <Container>
       <h1>Pokemon</h1>
       <Search />
+      <PokeList />
     </Container>
   )
 };
